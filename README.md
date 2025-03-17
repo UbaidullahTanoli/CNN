@@ -110,3 +110,5 @@ The architecture of EfficientNet-B1 is used to process and convert the images in
 ## Conclusion
 
 ![Training Metrics](clear_training_validation_metrics.png)
+
+The model started to memorise the data and hence resulted in an overfit.
