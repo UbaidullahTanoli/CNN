@@ -1,11 +1,11 @@
 # CNN
 
-This project focuses on the predictive power of a CNN on Medical (Chest X-ray images) dataset to accuractely classify an image as normal or not. This is part of a larger project which combines CNN and LLM to learn from images and the corresponding medical reports of the same patient to make highly accurate binary classification. This project servers as a baseline to compare CNN+LLM against.
+This project focuses on the predictive power of a CNN on Medical (Chest X-ray images) dataset to accurately classify an image as normal or not. This is part of a larger project which combines CNN and LLM to learn from images and the corresponding medical reports of the same patient to make highly accurate binary classification. This project serves as a baseline to compare CNN+LLM.
 
 ## Data
 
 Indiana University Chest X-ray dataset was used in the project.
-The dataset contains 7,470 pairs of images and reports and measures 14.19 GB. The reports were used as ground truth to compare the predictions of the CNN against.
+The dataset contains 7,470 pairs of images and reports and measures 14.19 GB. The reports were used as ground truth to compare the predictions of CNN.
 IU X-ray (Demner-Fushman et al., 2016) can be accessed [here](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university)
 
 ## CNN Model
@@ -106,3 +106,6 @@ The architecture of EfficientNet-B1 is used to process and convert the images in
 |       | Val   | 2.0211  | 0.6941   | 0.7189    | 0.8629  | 0.7843   |
 | 40    | Train | 0.0474  | 0.9824   | 0.9851    | 0.9874  | 0.9862   |
 |       | Val   | 1.5860  | 0.6827   | 0.7349    | 0.7944  | 0.7635   |
+
+## Conclusion
+
