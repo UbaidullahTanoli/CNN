@@ -1,6 +1,6 @@
 # CNN
 
-This project focuses on the predictive power of a CNN on Medical (Chest X-ray images) dataset to accurately classify an image as normal or not. This is part of a larger project which combines CNN and LLM to learn from images and the corresponding medical reports of the same patient to make highly accurate binary classification. This project serves as a baseline to compare CNN+LLM.
+This project focuses on the predictive power of a CNN on Medical (Chest X-ray images) dataset to accurately classify an image as normal or not. This is part of a larger project which combines CNN and LLM to learn from images and the corresponding medical reports of the same patient to make highly accurate binary classification. In this project, the whole CNN was trained. This project serves as a baseline to compare CNN+LLM.
 
 ## Data
 
@@ -18,6 +18,7 @@ The architecture of EfficientNet-B1 is used to process and convert the images in
 | --- | --- |
 | Optimizer | Adam |
 | Loss Function | Cross Entropy |
+| Trainable Parameters | 7.8M |
 | Learning Rate | 0.003 |
 | Number of Epochs | 40 |
 | Train / Test data ratio | 80 : 20 |
