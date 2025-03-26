@@ -10,7 +10,7 @@ IU X-ray (Demner-Fushman et al., 2016) can be accessed [here](https://www.kaggle
 
 ## CNN Model
 
-The architecture of EfficientNet-B1 is used to process and convert the images into vector embeddings. EfficientNet-B1 is a Depp CNN pretrained on Medical dataset (ImageNet) and has ~6.5 Million trainable parameters. EfficientNet‑B1 component is fine‑tuned on the dataset I used, while the BioBERT model remains frozen. I've leveraged pre‑trained knowledge from both models but only updated the image branch and the fusion MLP during training. It's been proven that EfficientNet architecture gives slightly better accuracy per parameter. Refer to the research paper [here](https://arxiv.org/pdf/1905.11946)
+The architecture of EfficientNet-B1 is used to process and convert the images into vector embeddings. EfficientNet-B1 is a Depp CNN pretrained on Medical dataset (ImageNet) and has ~6.5 Million trainable parameters. The EfficientNet‑B1 component is fine‑tuned on the dataset I used, while the BioBERT model remains frozen. I've leveraged pre‑trained knowledge from both models but only updated the image branch and the fusion MLP during training. It's been proven that EfficientNet architecture gives slightly better accuracy per parameter. Refer to the research paper [here](https://arxiv.org/pdf/1905.11946)
 
 ## Parameters
 
